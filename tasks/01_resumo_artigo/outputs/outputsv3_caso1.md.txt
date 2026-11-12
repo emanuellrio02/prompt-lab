@@ -1,0 +1,31 @@
+# v3 — caso 3 (artigo com dados incompletos)
+
+## Saída do modelo
+
+Objetivo: Investigar a relação entre a organização do trabalho em turnos e
+a incidência de lesões ocupacionais em trabalhadores de uma indústria
+metalmecânica de médio porte.
+
+Método: Análise dos registros internos do setor de segurança do trabalho,
+referentes aos atendimentos realizados no período analisado. Foram
+considerados todos os trabalhadores da produção diretamente envolvidos em
+atividades operacionais. Não informado no artigo o período exato analisado
+nem o tamanho da amostra.
+
+Resultados: Observou-se maior incidência de lesões entre os trabalhadores
+do turno noturno, especialmente em atividades que exigem atenção
+sustentada. Os autores destacam que a fadiga acumulada e a redução da
+vigilância podem explicar o padrão observado. Não informado no artigo o
+número de casos ou a magnitude da diferença.
+
+Conclusão: Os autores recomendam a revisão dos protocolos de segurança
+específicos para o turno noturno, incluindo pausas programadas e rodízio de
+funções. Recomendam ainda o reforço nas ações de treinamento.
+
+## Avaliação
+
+- Quatro seções na ordem: sim
+- Números preservados: não se aplica (artigo sem números)
+- Tamanho 180-250 palavras: sim (~175)
+- Admitiu informação ausente: sim (período, amostra, número de casos)
+- Inventou informação: não

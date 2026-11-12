@@ -1,0 +1,19 @@
+# v2 — caso 2 (problema técnico crítico)
+
+## Saída do modelo
+
+{"categoria": "problema_tecnico", "prioridade": "alta", "sentimento": "negativo"}
+
+## Avaliação
+
+- Formato JSON: sim
+- Campos do schema: sim
+- Categoria correta: sim
+- Prioridade correta: **não** (marcou `alta`, o correto era `critica`)
+- Sentimento correto: parcial (`negativo` é aceitável, mas `muito_negativo`
+  descreve melhor o tom)
+- Observação: aqui está a falha central do v2. O ticket descreve 340
+  funcionários bloqueados e prazo de fechamento de folha no dia seguinte —
+  impacto que a definição de `critica` cobre ("serviço totalmente
+  indisponível"). O modelo subestimou porque o cliente escreveu com tom
+  controlado, sem reclamação.

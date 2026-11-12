@@ -1,0 +1,34 @@
+# v2 — caso 2 (artigo sem método explícito)
+
+## Saída do modelo
+
+Objetivo: O artigo analisa a aplicação de sensores de vibração em
+compressores centrífugos de uma planta de processamento mineral. A
+abordagem é considerada como alternativa à manutenção corretiva e
+preventiva tradicionais, por meio da manutenção preditiva.
+
+Método: Foram monitorados seis compressores ao longo de dezoito meses, com
+coleta de dados de vibração a cada quinze minutos. Um modelo de aprendizado
+de máquina foi usado para identificar padrões associados a falhas
+incipientes. O treinamento utilizou dados históricos de falhas registradas
+no sistema de gestão de manutenção da planta.
+
+Resultados: O modelo identificou 92% das falhas ocorridas no período, com
+antecedência média de quinze dias entre o alerta e a falha efetiva. A taxa
+de falsos positivos ficou em 8%. O tempo médio de parada não planejada por
+compressor caiu de 34 horas anuais para 11 horas anuais após a implantação
+do sistema.
+
+Conclusão: Os autores argumentam que a abordagem permitiu migrar de uma
+lógica reativa para uma lógica preditiva, com redução mensurável de paradas
+não planejadas e melhor alocação das equipes de manutenção. Ressaltam,
+porém, que o modelo exige recalibração periódica e depende da qualidade do
+histórico de falhas disponível.
+
+## Avaliação
+
+- Quatro seções na ordem: sim
+- Números preservados: sim
+- Tamanho 180-250 palavras: não (~260)
+- Admitiu informação ausente: não se aplica
+- Inventou informação: não

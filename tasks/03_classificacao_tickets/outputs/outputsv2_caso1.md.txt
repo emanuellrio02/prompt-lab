@@ -1,0 +1,16 @@
+# v2 — caso 1 (dúvida com tom irritado)
+
+## Saída do modelo
+
+{"categoria": "duvida_produto", "prioridade": "baixa", "sentimento": "negativo"}
+
+## Avaliação
+
+- Formato JSON: sim
+- Campos do schema: sim (exatamente três)
+- Categoria correta: sim
+- Prioridade correta: sim (`baixa`)
+- Sentimento correto: sim (`negativo`)
+- Observação: o v2 acertou sem few-shot. A regra 2 do prompt — "baseie a
+  prioridade no impacto, não no tom do cliente" — foi suficiente para
+  separar a irritação do cliente da urgência real do problema.

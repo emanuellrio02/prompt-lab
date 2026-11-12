@@ -1,0 +1,10 @@
+# v2 — caso 1 (contrato simples)
+
+## Saída do modelo
+{"nome": "Alfa Logística Ltda", "data": "2025-03-12", "valor": 45000.00, "moeda": "BRL"}
+
+## Avaliação
+- JSON válido: sim
+- Data em ISO: sim
+- Valor como number: sim
+- Campos extras: sim (moeda)

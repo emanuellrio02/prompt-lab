@@ -1,0 +1,25 @@
+# v1 — caso 2 (problema técnico crítico)
+
+## Saída do modelo
+
+Tipo: incidente técnico (falha de sincronização do sistema de ponto)
+Prioridade: crítica (afeta 340 funcionários e o fechamento da folha é amanhã)
+Sentimento: neutro a negativo (tom objetivo, mas com urgência explícita)
+Recorrência: primeiro contato; o cliente já tentou reiniciar o servidor sem sucesso
+Risco operacional: alto (sem a sincronização, a folha pode fechar com marcações
+faltando ou incorretas)
+Ação sugerida: escalar imediatamente para o suporte de nível 2 ou engenharia,
+solicitar logs e a hora exata em que a sincronização parou, e dar ao cliente
+uma estimativa de retorno antes do fechamento da folha.
+
+## Avaliação
+
+- Formato JSON: não (texto livre em seis campos)
+- Campos do schema: não (inventou "recorrência", "risco operacional", "ação sugerida")
+- Categoria correta: sim (identificou problema técnico)
+- Prioridade correta: sim (`crítica`)
+- Sentimento correto: parcial (`neutro a negativo` não é valor da lista; o
+  correto seria `negativo` ou `muito_negativo`)
+- Observação: acertou a prioridade, mas por estar em texto livre — não teve
+  que escolher entre opções fechadas. O acerto não é comparável ao de um
+  modelo que precisou decidir dentro de uma escala.

@@ -1,0 +1,17 @@
+# v3 — caso 2 (problema técnico crítico)
+
+## Saída do modelo
+
+{"categoria": "problema_tecnico", "prioridade": "critica", "sentimento": "muito_negativo"}
+
+## Avaliação
+
+- Formato JSON: sim
+- Campos do schema: sim
+- Categoria correta: sim
+- Prioridade correta: sim (`critica`)
+- Sentimento correto: sim (`muito_negativo`)
+- Observação: o Exemplo 2 do prompt v3 descreve exatamente este cenário —
+  340 funcionários, prazo no dia seguinte, cliente já tentou resolver. O
+  modelo reconheceu o padrão e aplicou `critica`. Foi o único caso em que
+  o few-shot mudou o resultado.

@@ -1,0 +1,10 @@
+# v2 — caso 2 (data incompleta)
+
+## Saída do modelo
+{"nome": "João Pereira da Silva", "data": null, "valor": 1250.90}
+
+## Avaliação
+- JSON válido: sim
+- Data incompleta tratada como null: sim
+- Valor como number: sim
+- Campos extras: não

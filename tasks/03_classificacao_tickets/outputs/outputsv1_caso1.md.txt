@@ -1,0 +1,23 @@
+# v1 — caso 1 (dúvida com tom irritado)
+
+## Saída do modelo
+
+Tipo: dúvida técnica pré-venda (instalação do modelo X200 em parede de drywall)
+Prioridade: alta (prazo até amanhã e risco de perder a venda)
+Sentimento: negativo (frustração por falta de resposta)
+Recorrência: 3ª tentativa de contato sobre o mesmo assunto
+Risco comercial: alto (a compra depende da resposta)
+Ação sugerida: encaminhar à equipe técnica para uma resposta objetiva sobre
+a compatibilidade com drywall, reconhecendo a demora no início da mensagem.
+
+## Avaliação
+
+- Formato JSON: não (texto livre em seis campos)
+- Campos do schema: não (inventou "recorrência", "risco comercial", "ação sugerida")
+- Categoria correta: sim (identificou dúvida de produto)
+- Prioridade correta: não (marcou `alta`, o correto era `baixa`)
+- Sentimento correto: sim (`negativo`)
+- Observação: o modelo leu o risco comercial como impacto operacional. A
+  ameaça de comprar da concorrência não é urgência do cliente, é pressão
+  comercial — e a regra de prioridade olha o impacto do problema, não o
+  risco de perder a venda.

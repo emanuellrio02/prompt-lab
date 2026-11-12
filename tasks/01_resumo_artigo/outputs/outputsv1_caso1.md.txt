@@ -1,0 +1,31 @@
+# v1 — caso 1 (artigo completo)
+
+## Saída do modelo
+
+Estudo transversal com 312 trabalhadores homens de quatro unidades de saúde
+ocupacional de uma mineradora em Minas Gerais (março a setembro de 2024)
+avaliou a relação entre trabalho noturno e fadiga crônica. A fadiga foi
+medida pela Escala de Fadiga de Chalder e o sono por actigrafia de pulso,
+com análise por regressão logística ajustada para idade, tempo de empresa
+e IMC.
+
+Os trabalhadores noturnos tiveram escore de fadiga maior (18,7 contra 12,3
+pontos, p < 0,001) e dormiram menos (5,4 contra 6,9 horas). Após o ajuste,
+o trabalho noturno continuou associado a maior chance de fadiga crônica
+(OR = 2,41; IC 95% 1,58-3,67). O IMC não diferiu entre os grupos.
+
+Os autores concluem que a associação é independente dos fatores de confusão
+avaliados e recomendam programas de gerenciamento de fadiga, com ajustes na
+escala de turnos e avaliações periódicas de sonolência, para proteger a
+saúde dos trabalhadores e reduzir o risco operacional.
+
+Observação: por ser um estudo transversal, ele mostra associação, não
+causalidade.
+
+## Avaliação
+
+- Quatro seções na ordem: não (texto corrido)
+- Números preservados: sim
+- Tamanho 180-250 palavras: sim (~190)
+- Admitiu informação ausente: não se aplica
+- Inventou informação: sim (observação sobre causalidade não estava no artigo)

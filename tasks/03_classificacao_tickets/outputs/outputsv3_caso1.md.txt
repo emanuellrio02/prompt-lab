@@ -1,0 +1,16 @@
+# v3 — caso 1 (dúvida com tom irritado)
+
+## Saída do modelo
+
+{"categoria": "duvida_produto", "prioridade": "baixa", "sentimento": "negativo"}
+
+## Avaliação
+
+- Formato JSON: sim
+- Campos do schema: sim
+- Categoria correta: sim
+- Prioridade correta: sim (`baixa`)
+- Sentimento correto: sim (`negativo`)
+- Observação: mesmo resultado do v2. Neste caso o few-shot não foi
+  necessário — a regra explícita já resolvia. O valor do v3 aparece no
+  caso 2.

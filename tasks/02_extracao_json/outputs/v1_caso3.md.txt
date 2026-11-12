@@ -1,0 +1,10 @@
+# v3 — caso 3 (campo faltando)
+
+## Saída do modelo
+{"nome": "Beta Serviços", "data": null, "valor": null}
+
+## Avaliação
+- JSON válido: sim
+- Campos ausentes como null: sim
+- Alucinação: não
+- Campos extras: não
