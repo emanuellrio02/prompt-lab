@@ -30,18 +30,23 @@ resolveu e o que não resolveu.
 
 ```
 .
-├── 01-resumo-artigo/
-│   ├── README.md
-│   ├── prompt_v1.md
-│   ├── prompt_v2.md
-│   ├── prompt_v3.md
-│   └── outputs/
-├── 02-extracao-json/
-│   └── ...
-├── 03-classificacao-sac/
-│   └── ...
+├── tasks/
+│   ├── 01_resumo_artigo/
+│   │   ├── input.md
+│   │   ├── prompt_v1.md
+│   │   ├── prompt_v2.md
+│   │   ├── prompt_v3.md
+│   │   ├── outputs/
+│   │   └── README.md
+│   ├── 02_extracao_json/
+│   │   └── ...
+│   └── 03_classificacao_sac/
+│       └── ...
+├── .gitignore
 └── README.md
 ```
+
+Cada pasta de tarefa contém o texto de entrada, os três prompts, as saídas brutas do modelo e a análise daquela tarefa.
 
 Cada pasta de tarefa contém os três prompts, as saídas brutas do modelo e um
 README próprio com a análise daquela tarefa.
