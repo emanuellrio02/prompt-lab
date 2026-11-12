@@ -46,8 +46,6 @@ resolveu e o que não resolveu.
 └── README.md
 ```
 
-Cada pasta de tarefa contém o texto de entrada, os três prompts, as saídas brutas do modelo e a análise daquela tarefa.
-
 Cada pasta de tarefa contém os três prompts, as saídas brutas do modelo e um
 README próprio com a análise daquela tarefa.
 
