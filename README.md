@@ -40,7 +40,7 @@ resolveu e o que não resolveu.
 │   │   └── README.md
 │   ├── 02_extracao_json/
 │   │   └── ...
-│   └── 03_classificacao_sac/
+│   └── 03_classificacao_tickets/
 │       └── ...
 ├── .gitignore
 └── README.md
